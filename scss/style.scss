@@ -187,4 +187,37 @@ nav {
 .philosophy {
     color: black;
     background-color: lightgrey;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.number {
+    color: grey;
+}
+
+.philo2 {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat (2, auto);
+    grid-template-areas:
+        "h3 h3"
+        "photo info"
+        "photo info";
+}
+
+.photo_philos {
+    grid-area: photo;
+}
+
+.philo_info {
+    grid-area: info;
+}
+
+.philo_h3 {
+    grid-area: h3;
+}
+
+.philo_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
